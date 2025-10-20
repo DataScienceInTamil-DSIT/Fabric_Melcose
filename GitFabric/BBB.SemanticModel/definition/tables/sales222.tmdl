@@ -1,0 +1,91 @@
+table sales222
+	lineageTag: 60e1d9d8-01da-4fce-8986-180c7e9eebaf
+	sourceLineageTag: [dbo].[sales222]
+
+	column SalesOrderID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: be70e8b9-58d4-4a4e-b65f-382fe632c8d8
+		sourceLineageTag: SalesOrderID
+		summarizeBy: count
+		sourceColumn: SalesOrderID
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderDate
+		dataType: dateTime
+		formatString: General Date
+		sourceProviderType: date
+		lineageTag: 61b544f2-84e6-4d34-bdea-b40619397937
+		sourceLineageTag: OrderDate
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: c746536f-aa4a-41ef-be29-00ca3c505ab1
+		sourceLineageTag: CustomerID
+		summarizeBy: count
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LineItem
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: dc46fff2-0eb4-4e52-bc7d-48ec5811be37
+		sourceLineageTag: LineItem
+		summarizeBy: sum
+		sourceColumn: LineItem
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductID
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: e8d5dfe5-c5d9-44f8-90ab-5453f69d6fa8
+		sourceLineageTag: ProductID
+		summarizeBy: count
+		sourceColumn: ProductID
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderQty
+		dataType: int64
+		formatString: 0
+		sourceProviderType: int
+		lineageTag: 30a036df-c266-4ef8-ac37-0fd43790b7f2
+		sourceLineageTag: OrderQty
+		summarizeBy: sum
+		sourceColumn: OrderQty
+
+		annotation SummarizationSetBy = Automatic
+
+	column LineItemTotal
+		dataType: double
+		sourceProviderType: float
+		lineageTag: 521a6de3-d966-45dc-bc1d-c19dd98fe54d
+		sourceLineageTag: LineItemTotal
+		summarizeBy: sum
+		sourceColumn: LineItemTotal
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition sales222 = entity
+		mode: directLake
+		source
+			entityName: sales222
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

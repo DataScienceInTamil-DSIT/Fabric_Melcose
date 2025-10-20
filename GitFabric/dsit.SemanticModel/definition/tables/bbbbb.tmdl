@@ -1,0 +1,64 @@
+table bbbbb
+	lineageTag: 2367372d-384f-43d2-892d-0ed5c72936c0
+	sourceLineageTag: [dbo].[bbbbb]
+
+	column SalesOrderID
+		dataType: string
+		lineageTag: b5c001a7-dfea-45bf-bb12-6d13e850cd7d
+		sourceLineageTag: SalesOrderID
+		summarizeBy: none
+		sourceColumn: SalesOrderID
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_name
+		dataType: string
+		lineageTag: 078e21df-35da-4188-a99d-d87dbed6914f
+		sourceLineageTag: product_name
+		summarizeBy: none
+		sourceColumn: product_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 93bed10c-e067-447c-99d0-bfea46ff8212
+		sourceLineageTag: category
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column quantity
+		dataType: string
+		lineageTag: 8d40dba0-a54c-4e48-9af7-54567f3d614d
+		sourceLineageTag: quantity
+		summarizeBy: none
+		sourceColumn: quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: string
+		lineageTag: 5caa2207-c64a-4d01-a6eb-1af2f98a1551
+		sourceLineageTag: price
+		summarizeBy: none
+		sourceColumn: price
+
+		annotation SummarizationSetBy = Automatic
+
+	column order_date
+		dataType: string
+		lineageTag: 118fbb6c-2f61-4ab5-9e27-2c5ec3297bee
+		sourceLineageTag: order_date
+		summarizeBy: none
+		sourceColumn: order_date
+
+		annotation SummarizationSetBy = Automatic
+
+	partition bbbbb = entity
+		mode: directLake
+		source
+			entityName: bbbbb
+			expressionSource: 'DirectLake - LakehouseOct9'
+

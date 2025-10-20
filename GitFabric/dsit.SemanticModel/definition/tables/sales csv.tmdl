@@ -1,0 +1,81 @@
+table 'sales csv'
+	lineageTag: 3fc539d4-e649-44aa-9cef-04dfcf56ea2b
+	sourceLineageTag: [dbo].[sales csv]
+
+	column SalesOrderID
+		dataType: int64
+		formatString: 0
+		lineageTag: a62dcf26-e3fa-4595-bd21-40a2dc73417b
+		sourceLineageTag: SalesOrderID
+		summarizeBy: count
+		sourceColumn: SalesOrderID
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 468d132f-ba9f-48fe-b68e-548cd1c8c675
+		sourceLineageTag: OrderDate
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		lineageTag: 15f6dc34-2dc1-4bb1-806f-90f13747a714
+		sourceLineageTag: CustomerID
+		summarizeBy: count
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LineItem
+		dataType: int64
+		formatString: 0
+		lineageTag: 8a045932-b309-41c0-95f1-82c0379864e1
+		sourceLineageTag: LineItem
+		summarizeBy: sum
+		sourceColumn: LineItem
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductID
+		dataType: int64
+		formatString: 0
+		lineageTag: 904d6299-826a-4bd4-8dd6-003d9aa5d208
+		sourceLineageTag: ProductID
+		summarizeBy: count
+		sourceColumn: ProductID
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderQty
+		dataType: int64
+		formatString: 0
+		lineageTag: 62ebdd4e-fa12-43ea-8e45-5de06555d9fe
+		sourceLineageTag: OrderQty
+		summarizeBy: sum
+		sourceColumn: OrderQty
+
+		annotation SummarizationSetBy = Automatic
+
+	column LineItemTotal
+		dataType: double
+		lineageTag: 8196be7f-b3d0-4660-b145-fa052bd01e04
+		sourceLineageTag: LineItemTotal
+		summarizeBy: sum
+		sourceColumn: LineItemTotal
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'sales csv' = entity
+		mode: directLake
+		source
+			entityName: sales csv
+			expressionSource: 'DirectLake - LakehouseOct9'
+

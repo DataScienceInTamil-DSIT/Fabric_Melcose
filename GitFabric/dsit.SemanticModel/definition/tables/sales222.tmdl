@@ -1,0 +1,81 @@
+table sales222
+	lineageTag: 97855f80-20fa-4b03-a915-bbe40abd6d1b
+	sourceLineageTag: [dbo].[sales222]
+
+	column SalesOrderID
+		dataType: int64
+		formatString: 0
+		lineageTag: c8e0101c-09f2-4626-8bd3-49c7ced3f96e
+		sourceLineageTag: SalesOrderID
+		summarizeBy: count
+		sourceColumn: SalesOrderID
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderDate
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 797e4d19-115f-4641-9a80-889a6afc2089
+		sourceLineageTag: OrderDate
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerID
+		dataType: int64
+		formatString: 0
+		lineageTag: 180aa7be-fa80-4da2-96ee-cf65e034611f
+		sourceLineageTag: CustomerID
+		summarizeBy: count
+		sourceColumn: CustomerID
+
+		annotation SummarizationSetBy = Automatic
+
+	column LineItem
+		dataType: int64
+		formatString: 0
+		lineageTag: 4cfea16e-49bb-41eb-a05f-003ca1ef934b
+		sourceLineageTag: LineItem
+		summarizeBy: sum
+		sourceColumn: LineItem
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductID
+		dataType: int64
+		formatString: 0
+		lineageTag: 2c77b6f1-393a-4208-99bd-c669026496d6
+		sourceLineageTag: ProductID
+		summarizeBy: count
+		sourceColumn: ProductID
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderQty
+		dataType: int64
+		formatString: 0
+		lineageTag: 5274bda7-8c2e-46b3-a38c-31ce7b98dd39
+		sourceLineageTag: OrderQty
+		summarizeBy: sum
+		sourceColumn: OrderQty
+
+		annotation SummarizationSetBy = Automatic
+
+	column LineItemTotal
+		dataType: double
+		lineageTag: 61b9d75e-88a9-4d0f-a5a0-21cc5f1673ca
+		sourceLineageTag: LineItemTotal
+		summarizeBy: sum
+		sourceColumn: LineItemTotal
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition sales222 = entity
+		mode: directLake
+		source
+			entityName: sales222
+			expressionSource: 'DirectLake - LakehouseOct9'
+

@@ -1,0 +1,27 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow2Pipeline",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "sales csv": {
+      "queryId": "dec69b54-e062-41db-82dc-68f6142a6a0e",
+      "queryName": "sales csv",
+      "loadEnabled": false
+    },
+    "sales csv_DataDestination": {
+      "queryId": "3ea8cab0-b4ae-42bc-8255-91951ed5e405",
+      "queryName": "sales csv_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"a823f120-2182-4224-b42e-36261b4df5e1\",\"DatasourceId\":\"ad19871c-bb27-4445-a13c-c568b9df31e3\"}"
+    }
+  ]
+}

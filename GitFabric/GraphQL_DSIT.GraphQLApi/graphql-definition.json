@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphqlApi/definition/1.0.0/schema.json",
+  "datasources": [
+    {
+      "objects": [
+        {
+          "actions": {
+            "Query": "Enabled",
+            "Query_by_pk": "Enabled",
+            "Create": "Enabled",
+            "Update": "Enabled",
+            "Delete": "Enabled"
+          },
+          "fieldMappings": {
+            "CustomerID": "CustomerID",
+            "LineItem": "LineItem",
+            "LineItemTotal": "LineItemTotal",
+            "OrderDate": "OrderDate",
+            "OrderQty": "OrderQty",
+            "ProductID": "ProductID",
+            "SalesOrderID": "SalesOrderID"
+          },
+          "graphqlType": "jhhhhh",
+          "relationships": [],
+          "sourceObject": "dbo.[001_orders]",
+          "sourceObjectType": "Table"
+        },
+        {
+          "actions": {
+            "Query": "Enabled",
+            "Query_by_pk": "Enabled",
+            "Create": "Enabled",
+            "Update": "Enabled",
+            "Delete": "Enabled"
+          },
+          "fieldMappings": {
+            "CustomerName": "CustomerName",
+            "EmailAddress": "EmailAddress",
+            "Item": "Item",
+            "OrderDate": "OrderDate",
+            "Quantity": "Quantity",
+            "SalesOrderLineNumber": "SalesOrderLineNumber",
+            "SalesOrderNumber": "SalesOrderNumber",
+            "TaxAmount": "TaxAmount",
+            "UnitPrice": "UnitPrice"
+          },
+          "graphqlType": "sales",
+          "relationships": [],
+          "sourceObject": "dbo.sales",
+          "sourceObjectType": "Table"
+        }
+      ],
+      "sourceItemId": "0faf4c1b-cc08-413f-942d-70509708cde4",
+      "sourceType": "LakeWarehouse",
+      "sourceWorkspaceId": "d3882e81-ca32-4c69-8e0a-8b00346c2f4b"
+    }
+  ]
+}

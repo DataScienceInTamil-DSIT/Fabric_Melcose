@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Reflex",
+    "displayName": "Contoso Shipping Activator"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a3722370-c537-aa67-47ff-c18f0d34f87f"
+  }
+}
