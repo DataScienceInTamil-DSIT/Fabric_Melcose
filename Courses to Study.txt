@@ -1,0 +1,88 @@
+Free Programming and Data Analytics Resources 👇👇
+
+✅ Data science and Data Analytics Free Courses by Google 
+
+https://developers.google.com/edu/python/introduction
+
+https://grow.google/intl/en_in/data-analytics-course/?tab=get-started-in-the-field
+
+https://cloud.google.com/data-science?hl=en
+
+https://developers.google.com/machine-learning/crash-course
+
+https://t.me/datasciencefun/1371
+
+🔍 Free Data Analytics Courses by Microsoft 
+
+1. Get started with microsoft dataanalytics
+https://learn.microsoft.com/en-us/training/paths/data-analytics-microsoft/
+
+2.  Introduction to version control with git
+https://learn.microsoft.com/en-us/training/paths/intro-to-vc-git/
+
+3. Microsoft azure ai fundamentals
+https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/
+
+🤖 Free AI Courses by Microsoft 
+
+1. Fundamentals of AI by Microsoft
+
+https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/
+
+2. Introduction to AI with python by Harvard.
+
+https://pll.harvard.edu/course/cs50s-introduction-artificial-intelligence-python
+
+📚 Useful Resources for the Programmers
+
+Data Analyst Roadmap
+https://t.me/sqlspecialist/94
+
+Free C course from Microsoft
+https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-170&viewFallbackFrom=vs-2019
+
+Interactive React Native Resources
+https://fullstackopen.com/en/part10
+
+Python for Data Science and ML
+https://t.me/datasciencefree/68
+
+Ethical Hacking Bootcamp
+https://t.me/ethicalhackingtoday/3
+
+Unity Documentation
+https://docs.unity3d.com/Manual/index.html
+
+Advanced Javascript concepts
+https://t.me/Programming_experts/72
+
+Oops in Java
+https://nptel.ac.in/courses/106105224
+
+Intro to Version control with Git
+https://docs.microsoft.com/en-us/learn/modules/intro-to-git/0-introduction
+
+Python Data Structure and Algorithms
+https://t.me/programming_guide/76
+
+Free PowerBI course by Microsoft
+https://docs.microsoft.com/en-us/users/microsoftpowerplatform-5978/collections/k8xidwwnzk1em
+
+Data Structures Interview Preparation
+https://t.me/crackingthecodinginterview/309?single
+
+🍻 Free Programming Courses by Microsoft 
+
+❯ JavaScript
+http://learn.microsoft.com/training/paths/web-development-101/
+
+❯ TypeScript
+http://learn.microsoft.com/training/paths/build-javascript-applications-typescript/
+
+❯ C#
+http://learn.microsoft.com/users/dotnet/collections/yz26f8y64n7k07
+
+Join @free4unow_backup for more free resources.
+============= 
+https://t.me/pythonspecialist/1071
+======= 
