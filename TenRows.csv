@@ -1,0 +1,11 @@
+SalesOrderNumber,SalesOrderLineNumber,OrderDate,CustomerName,EmailAddress,Item,Quantity,UnitPrice,TaxAmount
+SO43701,1,7/1/2019,Christy Zhu,christy12@adventure-works.com,"Mountain-100 Silver, 44",1,3399.99,271.9992
+SO43704,1,7/1/2019,Julio Ruiz,julio1@adventure-works.com,"Mountain-100 Black, 48",1,3374.99,269.9992
+SO43705,1,7/1/2019,Curtis Lu,curtis9@adventure-works.com,"Mountain-100 Silver, 38",1,3399.99,271.9992
+SO43700,1,7/1/2019,Ruben Prasad,ruben10@adventure-works.com,"Road-650 Black, 62",1,699.0982,55.9279
+SO43703,1,7/1/2019,Albert Alvarez,albert7@adventure-works.com,"Road-150 Red, 62",1,3578.27,286.2616
+SO43697,1,7/1/2019,Cole Watson,cole1@adventure-works.com,"Road-150 Red, 62",1,3578.27,286.2616
+SO43699,1,7/1/2019,Sydney Wright,sydney61@adventure-works.com,"Mountain-100 Silver, 44",1,3399.99,271.9992
+SO43702,1,7/1/2019,Colin Anand,colin45@adventure-works.com,"Road-150 Red, 44",1,3578.27,286.2616
+SO43698,1,7/1/2019,Rachael Martinez,rachael16@adventure-works.com,"Mountain-100 Silver, 44",1,3399.99,271.9992
+SO43707,1,7/2/2019,Emma Brown,emma3@adventure-works.com,"Road-150 Red, 48",1,3578.27,286.2616
